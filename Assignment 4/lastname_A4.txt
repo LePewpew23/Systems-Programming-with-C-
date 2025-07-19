@@ -1,0 +1,56 @@
+/****SAMPLE PROGRAM HEADER*******************************************************
+STUDENT NAME
+Due Date:
+Course:  C0P3275C
+Assignment: Assignment 4
+
+Professor: Sorgente
+
+Description: (Your program description goes here -- what it does--In the program we processed....
+
+*******************************************************************************/
+
+#include <iostream> //standard library for i/o
+#include <string> // always include this when you use the string class
+#include <fstream> //file IO streams
+using namespace std;
+
+
+//struct definition here
+
+//function protoypes here
+
+//input one instance of your struct by reference and file stream by reference
+//get the information for one instance of your struct from the file
+
+
+
+//input: one const instance of your struct by reference
+//prints the information about a instance of your struct onto the screen
+
+
+int main( )
+{
+    //declare3 objects (instances)
+    //open the file
+   	if (fin.fail())
+		//did not find the file
+		cout << "Input file did not open correctly" << endl;
+	else
+	{
+	    //get the information
+	    //print the information
+
+	    //get the information
+	    //print the information	 
+	    
+	    //get the information
+	    //print the information
+	    
+	}
+	//close the file
+    return 0;
+
+}
+
+//function definitions go here

@@ -1,0 +1,15 @@
+carrot
+orange
+111
+.45
+4.00
+green_beans
+green
+222
+1.79
+4.29
+brusselSprouts
+green
+333
+1.12
+2.87

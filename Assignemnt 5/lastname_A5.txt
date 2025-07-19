@@ -1,0 +1,131 @@
+/****SAMPLE PROGRAM HEADER*******************************************************
+STUDENT NAME
+Due Date:
+Course:  C0P3275C
+Assignment: Assignment 5
+
+Professor: Sorgente
+
+Description: (Your program description goes here -- what it does--In the program we processed....
+
+*******************************************************************************/
+
+#include <iostream> //standard library for i/o
+#include <string> // always include this when you use the string class
+using namespace std;
+
+
+//class declaration here - DO NOT use vegetable
+class vegetable 
+{
+public:
+    vegetable(); //default constructor
+    vegetable(string, string, int, double, double);
+
+    //mutator functions (five functions)
+    void SetName(string);
+  
+    //accessor functions (five functions)
+    string GetName()const;
+ 
+private: //5 variables
+
+    string name;
+    int id;
+  
+};
+
+//member functions here
+vegetable::vegetable()//default constructor
+{
+    cout << "\ndefault vegetable is carrot";
+
+}
+
+//explicit value constructor
+vegetable::vegetable(string n, string c, int i, double cost, double price)
+{
+    cout << "\nExplicit value constructor";
+
+}
+
+
+//mutator functions (five functions)
+void vegetable::SetName(string n) { name = n; }
+
+
+//accessor functions (five functions)
+string vegetable::GetName()const { return name; }
+
+
+
+//programmer function prototypes
+
+//input one vegetable by reference
+//get the information for one vegetable with user input 
+void GetVeggieInfo(vegetable& vtb);
+
+//input: one const vegetable by reference
+//prints the information about a veggie onto the screen
+void PrintVeggieInfo(const vegetable& vtb);
+
+
+
+int main()
+{
+    //declare 4 objects
+    //vegetable v1("onion", "white", 555, 1.50, 4.00); //explicit value constructor
+    //vegetable v2, v3, v4; //leave the default constructor values for v2
+  
+    //use the GetVeggieInfo function to fill v3 and v4
+  
+
+    //print the info for all 4 veggies (PrintVeggieInfo)
+    
+    return 0;
+}
+
+
+//input one vegetable by reference
+//get the information for one vegetable with user input 
+//prompt for input one by one
+void GetVeggieInfo(vegetable& vtb)
+{
+    string nameInput;
+    cout << "\n\n------Getting information from the user-----\n\n";
+    cout << "Enter veggie name: ";
+    cin >> nameInput;
+    //vtb.SetName(nameInput); //mutator (setter) function
+
+}
+
+
+//input: one const vegetable by reference
+//prints the information about a veggie onto the screen
+void PrintVeggieInfo(const vegetable& vtb)
+{
+    
+    //set the number of decimal places for doubles
+    cout.setf(ios::fixed);	
+    cout.setf(ios::showpoint);
+    cout.precision(2); //use any number here for the number of decimal places
+    
+    cout << "\n\n------Printing Veggie info-----\n\n";
+    //cout << "ID : " << vtb.GetID() << endl; //accessor(getter) function
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

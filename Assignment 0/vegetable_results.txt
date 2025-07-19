@@ -1,0 +1,33 @@
+Vegetable: Brussel_sprouts
+Color: Green
+Price per pound: $1.6
+Cost per pound: $0.5
+Pounds purchased: 4
+Profit: $4.4
+-----------------------------
+Vegetable: Beet
+Color: Red
+Price per pound: $0.9
+Cost per pound: $0.35
+Pounds purchased: 4
+Profit: $2.2
+-----------------------------
+Vegetable: Carrot
+Color: Orange
+Price per pound: $0.75
+Cost per pound: $0.3
+Pounds purchased: 6
+Profit: $2.7
+-----------------------------
+Vegetable name: Spinach
+Price per pound: $1.25
+Cost per pound: $0.4
+Pounds purchased: 100
+Profit: $85
+--------------------------
+Vegetable name: Brussel_sprouts
+Price per pound: $1.6
+Cost per pound: $0.5
+Pounds purchased: 500
+Profit: $550
+--------------------------
